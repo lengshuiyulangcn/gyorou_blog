@@ -68,4 +68,20 @@ theme: tranquilpeak
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: rsync
+  host: bocchi.tokyo
+  user: gyorou 
+  root: /var/www/myblog 
+  port: 22 
+  delete: true 
+  verbose: true 
+  ignore_errors: false 
+
+plugin:
+- hexo-generator-feed
+
+#Feed Atom
+feed:
+type: atom
+path: atom.xml
+limit: 20
