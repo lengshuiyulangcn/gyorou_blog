@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Gyorouのぼっち日記 
+subtitle: Shitty ideas and thoughts
 description:
-author: John Doe
-language:
-timezone:
+author: Gyorou
+language: zh-cn
+timezone: Japan
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://blog.bocchi.tokyo
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -24,7 +24,7 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: :lang
+i18n_dir: :language
 skip_render:
 
 # Writing
